@@ -1,0 +1,356 @@
+/** video section **/
+.video-section-container{
+  max-width:1200px;
+}
+.section-container-video{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  width:100%;
+  padding: 35px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.testimonial__frame h5 a{
+    color: #000;
+    font-size:55px;
+    font-weight: 600;
+    letter-spacing: -.025em;
+    line-height: 36px;
+}
+
+div.common-tag {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    color: #fff;
+    display: block;
+    line-height: 24px;
+}
+.testimonial__frame h5 a:hover{
+  color:#fd4f57;
+}
+.testimonial__content__tag span {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    color: #0e2033;
+    padding:3px 10px;
+}
+.testimonial__content__tag {
+    padding-top: 7px;
+    color: #0e2033;
+  	padding-bottom:15px;
+}
+.quote-v{
+  color:#0e2033 !important;
+  font-size:22px !important;
+  letter-spacing:1px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.author_name {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 20px !important;
+    padding-top: 17px !important;
+    color: #0e2033 !important;
+    text-transform: none;
+    letter-spacing: unset;
+}
+
+.row--container h2{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    line-height: 20px;
+    text-align: center;
+    color: #0e2033;
+    text-transform: unset;
+    padding: 15px 0 15px 0;
+}
+.video-img{
+  	width:100%;
+    float: left;
+    bottom: 0;
+    height: auto;
+    margin: 0 8.69565%;
+}
+.logo-bottom{
+    position: absolute;
+    bottom:5px;
+    margin-left: 55px;
+}
+.logo-bottom img{
+  width:43.66%;
+  height:20%;
+}
+.video-content-part{
+  width:50%;
+}
+.video-part{
+	width:50%;
+    position:relative
+}
+.video-part span{
+    position: relative;
+    top: 50%;
+    transform: translateY(-45%);
+    border: 2px solid #fff;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    transition: background .2s ease,border-color .2s ease;
+    width: 68px;
+    height: 40px;
+    left:45px;
+}
+.video-part span svg{
+	position: absolute;
+    left: 29px;
+    top: 13px;
+    height: 14px;
+    width: 10px;
+}
+
+@media only screen and (max-width:749px){
+  .section-container-video{
+    flex-direction:column;
+  }
+  .video-content-part{
+    width:98% !important;
+    text-align: center !important;
+  }
+  .video-part{
+    width:90% !important;
+    text-align: center !important;
+    margin-top: 35px;
+  }
+  .author_name{
+     font-weight: bold!important;
+  }
+  .video-img{
+    margin: 0 20px;
+    height:200px;
+  }
+  .logo-bottom{
+    margin-left:35px;
+  }
+  .video-part span{
+    transform: translateY(200%);
+    left: 20px;
+  }
+  .row--container h2{
+    padding: 10px 0 0 0;
+  }
+}
+
+body.no-scroll {
+    overflow: hidden!important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+}
+div.site.no-scroll-fixed {
+    overflow: hidden;
+    position: absolute;
+}
+div.modal {
+	background: rgba(4, 4, 15, .75);
+	height: 100%;
+	left: 0;
+	opacity: 1;
+	overflow-y: scroll;
+	position: fixed;
+	top: 0;
+	transition: opacity .3s ease;
+	visibility: hidden;
+	width: 100%;
+	z-index: 6666
+}
+
+div.modal__close {
+	position: fixed;
+	right: 36px;
+	top: 36px;
+	z-index: 3
+}
+
+div.modal__close a {
+	background: 0 0;
+	border: 1px solid #fff;
+	border-color: #fff
+}
+
+div.modal__close, a svg path {
+	fill: #0e2033;
+}
+
+div.modal__close, a:hover {
+	background: #fff;
+	border-color: #fff
+}
+
+div.modal__close a:hover svg path {
+	fill: #0e2033;
+}
+div.modal__close{
+  border-radius: 100%;
+}
+
+div.modal__table {
+	display: table;
+	height: 100%;
+	margin: auto;
+	max-width: 1180px;
+	position: relative;
+	width: 100%;
+	z-index: 2
+}
+
+div.modal__back {
+	background: 0 0;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 1
+}
+
+div.modal__cell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle
+}
+
+div.modal__content {
+	width: 91.30435%;
+	float: left;
+	margin: 0 4.34783%;
+	position: relative;
+	z-index: 2
+}
+
+div.modal__content__headline {
+	margin-top: 74px
+}
+
+div.modal__content__headline h2 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 500;
+	letter-spacing: -.025em;
+	line-height: 36px
+}
+
+div.modal__content__title {
+	margin-bottom: 72px
+}
+
+div.modal__content__title h3 {
+	color: #fff;
+    letter-spacing: unset;
+    text-transform: none;
+    margin-top: -15px;
+}
+
+div.modal__content__video {
+	background: #000;
+	box-shadow: 0 30px 60px rgba(0, 0, 0, .5)
+}
+
+div.modal__content__video div {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	width: 100%
+}
+
+div.modal__content__video div iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+
+div.modal__content__note {
+	color: #fff;
+	margin: 80px 0
+}
+
+div.modal__content__note span {
+	display: inline-block;
+	padding-right: 15px
+}
+div.modal.modal-open {
+	opacity: 1
+}
+
+div.modal.modal-close {
+	opacity: 0
+}
+
+div.modal.modal-visible {
+	visibility: visible;
+    z-index:999999999;
+}
+
+div.modal.modal-scrollable {
+	-webkit-overflow-scrolling: touch !important;
+}
+div.modal__close a:hover {
+    background: #fff;
+    border-color: #fff;
+}
+div.modal__close a {
+    background: 0 0;
+    border: 1px solid #fff;
+    border-color: #fff;
+}
+div.common-close a {
+    border-radius: 36px;
+    display: block;
+    height: 36px;
+    position: relative;
+    transition: background .2s ease,border-color .2s ease;
+    width: 36px;
+}
+div.common-close a:hover {
+    color: #0e2033;
+}
+div.common-close a svg {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+}
+.modal__content__video iframe{
+  width:100% !important;
+  height:100% !important;
+}
+.common-button.pill.red {
+    background-color: #0e2033;
+    color: #fff;
+}
+.common-button.pill {
+    background-color: #fff;
+    border-radius: 30px;
+    color: #0e2033;
+    line-height: 52px;
+    padding: 0 22px 0 23px;
+    text-align: center;
+}
+.common-button {
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    line-height: 16px;
+    color: #fff;
+    display: inline-block;
+    line-height: 24px;
+    position: relative;
+    transition: background-color .2s ease,color .2s ease;
+}
+.modal__content__title h3{
+  font-size:20px !important;
+}
